@@ -11,6 +11,7 @@ module.exports = (env, _arg) => ({
         // static: path.join(__dirname, "static"),
         compress: true,
         port: 8000,
+        allowedHosts: "all",
     },
 
     module: {
