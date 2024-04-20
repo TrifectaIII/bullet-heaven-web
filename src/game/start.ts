@@ -19,7 +19,7 @@ export const startGame = async () => {
 
     // Move the sprite to the center of the screen
     bunny.x = app.screen.width / 2;
-    bunny.y = app.screen.height / 2;
+    bunny.y = app.screen.height / 3;
 
     app.stage.addChild(bunny);
 
